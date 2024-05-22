@@ -18,7 +18,28 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.artist-description {
+  text-align: left;
+}
+
+.artwork {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.artwork p {
+  font-size: 14;
 }
 
 /* Containers */
